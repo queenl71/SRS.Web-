@@ -3,7 +3,6 @@ SRS<br>
 
 # 主界面
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/1.jpg)
-![index](https://github.com/queenl71/SRS.Web-/blob/master/12.png)
 
 ## 注册登录
 利用struts2+spring<br> 
