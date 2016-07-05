@@ -23,5 +23,7 @@ SRS<br>
 
 ### 学生 查询课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/check.png)
+### 管理员 课程删除
+![index](https://github.com/queenl71/SRS.Web-/blob/master/check.png)
 ### 管理员 添加课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/11.png)
