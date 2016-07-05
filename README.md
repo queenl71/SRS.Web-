@@ -3,6 +3,8 @@ SRS<br>
 
 # 主界面
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/1.jpg)
+![index](https://github.com/queenl71/SRS.Web-/blob/master/12.png)
 
 ## 注册登录
-![index](https://github.com/queenl71/GuitarV3/blob/master/add.png)
+![index](https://github.com/queenl71/SRS.Web-/blob/master/2.png)
+![index](https://github.com/queenl71/SRS.Web-/blob/master/3.png)
