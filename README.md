@@ -21,7 +21,7 @@ SRS<br>
 ### 类图
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/leitu.png)
 
-### 查询课程
+### 学生 查询课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/check.png)
-### 添加课程
+### 管理员 添加课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/11.png)
