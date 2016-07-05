@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts >
+
+<struts>
+   <constant name="struts.i18n.encoding" value="utf-8"></constant>
+   
+   <constant name="struts.objectFactory" value="spring"></constant>
+   
+   
+    <package name="strutsqs"  extends="struts-default">
+        <action name="Login" class="servlet.LoginAction">
+            <result name="success">/index.jsp</result>
+            <result name="error">/404.jsp</result>
+        </action>
+        <action name="Register" class="servlet.RegisterAction">
+            <result name="success">/index.jsp</result>
+            <result name="error">/404.jsp</result>
+        </action>
+    </package>
+</struts>

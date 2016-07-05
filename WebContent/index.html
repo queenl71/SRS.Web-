@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中矿大选课系统</title>
+    <!-- Bootstrap Styles-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+       <!-- banner--> 
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">中矿大选课系统</a>
+            </div>
+
+
+                <!-- /顶部 -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                </li>
+                
+                
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    </li>
+                
+                
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                </li>
+                
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> 个人用户</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> 登录</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> 退出登录</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+        </nav>
+        
+        
+        <!--目录  -->
+       
+       
+       
+      
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i> 首页</a>
+                    </li>
+                    <li>
+                        <a href="search.jsp"><i class="fa fa-desktop"></i> 所有课程</a>
+                    </li>
+                     
+                <li class="">
+                        <a href="#"><i class="fa fa-sitemap"></i> 我的课程<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse" style="height: 0px;">
+                            <li>
+                                <a href="#">已选课程</a>
+                            </li>
+                            <li>
+                                <a href="add.jsp">添加课程</a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                   <li>
+                        <a href="search.jsp"><i class="fa fa-table"></i> 选课情况</a>
+                    </li>
+                   
+                </ul>
+
+            </div>
+
+        </nav>
+       
+       
+        <!-- 右侧  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">
+                            选课系统<small>首页</small>
+                        </h1>
+                    </div>
+                </div>
+                
+                
+                <!-- 右侧  -->
+                
+                <div class="row">
+
+			  <div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				 江苏－中国矿业大学
+				</div>        
+							  
+							<div class="panel-body"> 
+								<div class="alert alert-success">
+									<strong>登录成功!</strong> 欢迎来到中矿大选课系统.
+								</div>
+							</div>
+				</div>
+			</div>						
+				</div>
+
+               
+                <!-- banner-->
+<div class="banner-box" style=" margin-bottom: 60px; margin-top: 20px;">
+	<div class="bd">
+        <ul>          	    
+            <li >
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/01.jpg" /></a>
+                </div>
+            </li>
+            <li >
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/00.jpg" /></a>
+                </div>
+            </li>
+           
+        </ul>
+    </div>
+    <div class="banner-btn">
+        <a class="prev" href="javascript:void(0);"></a>
+        <a class="next" href="javascript:void(0);"></a>
+        <div class="hd"><ul></ul></div>
+    </div>
+</div>
+
+
+
+                <!-- 统计-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder bg-color-green">
+                            <div class="panel-body">
+                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <h3>8,457</h3>
+                            </div>
+                            <div class="panel-footer back-footer-green">
+                                流量
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder bg-color-blue">
+                            <div class="panel-body">
+                                <i class="fa fa-shopping-cart fa-5x"></i>
+                                <h3>52,160 </h3>
+                            </div>
+                            <div class="panel-footer back-footer-blue">
+                                交易
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder bg-color-red">
+                            <div class="panel-body">
+                                <i class="fa fa fa-comments fa-5x"></i>
+                                <h3>15,823 </h3>
+                            </div>
+                            <div class="panel-footer back-footer-red">
+                                评论
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder bg-color-brown">
+                            <div class="panel-body">
+                                <i class="fa fa-users fa-5x"></i>
+                                <h3>36,752 </h3>
+                            </div>
+                            <div class="panel-footer back-footer-brown">
+                               用户
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /留言  -->
+               <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                留言板
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">7 分钟前</span>
+                                        <i class="fa fa-fw fa-comment"></i> 电商这学期课好多啊
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">36 分钟前</span>
+                                        <i class="fa fa-fw fa-globe"></i> 这学期又满课
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">1 小时前</span>
+                                        <i class="fa fa-fw fa-user"></i> 电商狗笑看课表
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">昨天</span>
+                                        <i class="fa fa-fw fa-globe"></i> 怎么没有男神的课
+                                    </a>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">更多 <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+                                   
+                <!-- /提示  -->
+<div class="col-md-6">
+                       
+                     <!--  Modals-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                           帮助
+                        </div>
+                        <div class="panel-body">
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                              点击查看选课系统帮助
+                            </button>
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title" id="myModalLabel">选课系统帮助</h4>
+                                        </div>
+                                        <div class="modal-body">
+                   中国矿业大学选课系统，学生老师可注册登录、课程查询并选课（模型实现选课逻辑），实现课程增删查改，学生成绩查询，课程选课情况查询
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- End Modals-->
+                
+                    </div>
+               
+                </div>
+ 
+                
+                
+            
+            
+             
+            
+               
+                <!-- /底部  -->
+				<footer><p>Copyright &copy; 2016.</p></footer>
+            </div>
+           
+        </div>
+        
+    </div>
+   
+   
+   
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Metis Menu Js -->
+    <script src="js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="js/morris/raphael-2.1.0.min.js"></script>
+    <script src="js/morris/morris.js"></script>
+    <!-- Custom Js -->
+    <script src="js/custom-scripts.js"></script>
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+});
+</script>
+
+</body>
+
+</html>
