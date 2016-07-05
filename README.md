@@ -6,6 +6,7 @@ SRS<br>
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/12.png)
 
 ## 注册登录
+利用struts2+spring<br> 
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/2.png)
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/3.png)
 
