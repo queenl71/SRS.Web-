@@ -26,3 +26,7 @@ SRS<br>
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/delete.png)
 ### 管理员 添加课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/11.png)
+
+### 截图
+![index](https://github.com/queenl71/SRS.Web-/blob/master/jg.png)
+
