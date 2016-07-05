@@ -16,5 +16,10 @@ SRS<br>
 ### 配置struts.xml，配置新的action 
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/4.png)
 
+### 选课顺序图 
+![index](https://github.com/queenl71/SRS.Web-/blob/master/chake.png)
+### 类图
+![index](https://github.com/queenl71/SRS.Web-/blob/master/leitu.png)
+
 ### 添加课程
 ![index](https://github.com/queenl71/SRS.Web-/blob/master/11.png)
